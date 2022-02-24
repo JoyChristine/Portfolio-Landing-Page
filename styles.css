@@ -76,8 +76,11 @@ padding-top:2%;
 
 .projects{
     font-size: large;
-    display: block;
+    margin-top: 30vw;
+    
+    
 }
+
 .library .project-name, .tic .project-name, .restaurant .project-name{
     color:red;
     
