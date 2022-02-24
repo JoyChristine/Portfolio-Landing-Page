@@ -2,9 +2,12 @@
     box-sizing: border-box;
     margin: 0%;
 }
+body{
+    background-color: rgb(172, 121, 55);
+}
 .header{
     background-color:#313c4e;
-    height: 20vw;
+    /* height: 20vw; */
    
     /* height: 10vw; */
 }
@@ -18,7 +21,7 @@
     color:white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 5vw;
-    font-weight: 300;
+    /* font-weight: 300; */
    
 }
 .job{
@@ -31,12 +34,14 @@
     font-style: normal;
     text-decoration: underline;
 }
-.row{
-    
+.describe{
+color: white;    
+padding-top:2%;
 }
-.abt strong{
+.abt{
     text-align: center;
-    text-decoration: underline;
+    font-size: 2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration-color: #313c4e;
 }
 .column p span{
@@ -91,11 +96,28 @@
     font-family: 'Trocchi', serif;
 }
 .footer {
-    
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: black;
     color: white;
     text-align: center;
  }
+ .footer svg
+ {
+    color: rgb(162, 173, 170);
+    height: 3vw;
+    padding: 0.4%;
+    cursor: pointer;
+    
+ }
+
+.footer svg:hover{
+    color: brown;
+    height: 3.5vw;
+}
+@media screen and (max-width: 480px) {
+    .svg{
+      width: 100%;
+    }
+}
