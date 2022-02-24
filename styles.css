@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+.header{
+    background-color:#313c4e;
+    height: 10vw;
+    /* text-align: center; */
+    /* height: 10vw; */
+}
+.name {
+    text-align: center;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    font-weight: 300;
+   
+}
+.job{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2vw;
+    text-underline-offset: 0.5vw;
+    text-align: center;
+    font-weight:350;
+    font-style: normal;
+    text-decoration: underline;
+}
+.about{
+    /* width: auto; */
+}
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 0%;
+   
+}
+  
+
+@media screen and (max-width: 480px) {
+    .column {
+      width: 100%;
+    }
+   
+}
+
