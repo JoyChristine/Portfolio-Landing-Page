@@ -45,7 +45,7 @@
 }
 .column {
     float: left;
-    height: 27vw;
+    /* height: 27vw; */
     width: 33.3333%;
     padding: 0%;
    
@@ -63,7 +63,7 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .column{
       width: 100%;
     }
@@ -81,3 +81,21 @@
     font-weight: 100;
    
 }
+@media screen and (max-width: 480px) {
+    .projects{
+      width: 100%;
+    }
+}
+.hobbies strong{
+    font-size: large;
+    font-family: 'Trocchi', serif;
+}
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
