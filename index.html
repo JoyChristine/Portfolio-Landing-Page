@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -95,20 +96,23 @@
       </div>
     </div> -->
   </div>
+  
+ 
   <div class="projects">
     <strong>My Projects</strong>
-    <div class="library">
-      <p class="project-name">Library Project</p>
-      
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt laudantium quae repudiandae eaque fuga harum laboriosam odit modi dolor, illo maiores sint voluptatum nulla fugiat molestias culpa, rem quidem.</p>
-      <!-- <div class="pic">
-        <img src="images/me.jpeg" alt="a phot of myself">
-      </div> -->
+    <div class="to-do">
+      <p class="project-name"><a href="https://joychristine.github.io/To-do-List/"> To-do-List project</a></p>
+      <img class="" src="images/to-do.png" alt="to-do" >
+      <p class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, est? Libero cum incidunt dolor sed corporis mollitia ab aliquam, sunt placeat aperiam magnam dolore quo voluptas minima est? Autem, aliquam?</p>
     </div>
-    <div class="tic">
-      <p class="project-name">Tic Tac Toe Game</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt laudantium quae repudiandae eaque fuga harum laboriosam odit modi dolor, illo maiores sint voluptatum nulla fugiat molestias culpa, rem quidem.</p>
+
+    <div class="sign">
+      <p class="project-name"><a href="https://joychristine.github.io/Sign-up-page/"> Sign-up Page project</a></p>
+      <img class="" src="images/Sign-up.png" alt="to-do" >
+      <p class="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, est? Libero cum incidunt dolor sed corporis mollitia ab aliquam, sunt placeat aperiam magnam dolore quo voluptas minima est? Autem, aliquam?</p>
     </div>
+    <!-- https://joychristine.github.io/Tic-Tac-Toe/ -->
+
     <div class="restaurant">
       <p class="project-name">Restaurant page</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt laudantium quae repudiandae eaque fuga harum laboriosam odit modi dolor, illo maiores sint voluptatum nulla fugiat molestias culpa, rem quidem.</p>
@@ -121,6 +125,23 @@
     <p> Swimming </p>
     <p> Swimming </p>
   </div>
+  <div id="maps"></div>
+  <script>
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([51.5, -0.09]).addTo(map)
+    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+    .openPopup();
+  </script>
+</div>
+
+
+
+
   <div class="footer">
   <!-- Linkedin -->
   
