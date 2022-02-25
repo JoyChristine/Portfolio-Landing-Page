@@ -123,8 +123,13 @@ text-align: center;
     
     
 }
-.to-do img,.sign img{
+.to-do img{
     float: left;
+    width:35vw;
+    height: 22vw;
+}
+.sign img{
+    float: right;
     width:35vw;
     height: 22vw;
 }
@@ -135,23 +140,7 @@ text-align: center;
     
 }
 
-.button {
-    background-color: blueviolet;
-    font-family: "Ubuntu";
-    border-radius: 0.5vw;
-    border-style: none;
-    box-sizing: border-box;
 
-    color: #ffffff;
-    cursor: pointer;
-    
-    font-size: 2.8vw;
-    font-weight: 500;
-    outline: none;
-   
-    
-        
-}
     
 
 
@@ -175,6 +164,41 @@ text-align: center;
     font-weight: 100;
    
 }
+/* sign */
+/* tic */
+.tic .tic-desc{
+    font-size: 3vw;
+    font-family: "Ubuntu";
+}
+.tic-desc span{
+    font-size: 3vw;
+    font-family: "Ubuntu";
+    color: #313c4e;
+    font-style: italic;
+}
+.tic-desc2{
+    margin-top: 5%;
+    font-size: 2.4vw;
+    font-family: "Ubuntu";
+    color: black;
+    
+}
+
+.button {
+    background-color: blueviolet;
+    font-family: "Ubuntu";
+    border-radius: 0.5vw;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2.8vw;
+    font-weight: 500;
+    outline: none;
+    margin-top: 2%;
+      
+}
+
 @media screen and (max-width: 480px) {
     .projects{
       width: 100%;
