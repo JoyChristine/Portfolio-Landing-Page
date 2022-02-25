@@ -150,9 +150,31 @@ text-align: center;
     color:black;
     text-decoration: underline;
     font-family: 'Ubuntu';
-    font-size:2vw;
+    font-size:1.5vw;
     font-weight: 500;
    
+}
+.to-do-desc{
+    font-size: 1.5vw;
+    font-family: "Ubuntu";
+}
+.to-do-desc2{
+    margin-top:2%;
+    font-size:1.5vw;
+    font-family: "Ubuntu";
+    color: black;
+    
+}
+.to-do-list {
+    font-size: 1.5vw;
+    font-family: "Ubuntu";
+    color: black;
+}
+.to-do-desc span{
+    font-size: 1.5vw;
+    font-family: "Ubuntu";
+    color: #313c4e;
+    font-style: italic;
 }
 /* sign */
 .sign img{
@@ -162,18 +184,18 @@ text-align: center;
 }
 
 .sign-desc{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: "Ubuntu";
 }
 .sign-desc span{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: "Ubuntu";
     color: #313c4e;
     font-style: italic;
 }
 .sign-desc2{
     margin-top:2%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: "Ubuntu";
     color: black;
     
@@ -187,18 +209,18 @@ text-align: center;
 }
 
 .tic .tic-desc{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: "Ubuntu";
 }
 .tic-desc span{
-    font-size: 2vw;
+    font-size:1.5vw;
     font-family: "Ubuntu";
     color: #313c4e;
     font-style: italic;
 }
 .tic-desc2{
     margin-top: 5%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: "Ubuntu";
     color: black;
     
