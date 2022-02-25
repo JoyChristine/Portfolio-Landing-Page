@@ -128,17 +128,7 @@ text-align: center;
     width:35vw;
     height: 22vw;
 }
-.sign img{
-    float: right;
-    width:35vw;
-    height: 22vw;
-}
-.tic img {
-    float: left;
-    width:35vw;
-    height: 32vw;
-    
-}
+
 
 
     
@@ -156,36 +146,66 @@ text-align: center;
 }
   
 
-.to-do .project-name, .tic .project-name, .restaurant .project-name{
-    color:red;
-    
-    font-family: 'Times New Roman', Times, serif;
+.to-do a, .tic a, .sign a{
+    color:black;
+    text-decoration: underline;
+    font-family: 'Ubuntu';
     font-size:2vw;
-    font-weight: 100;
+    font-weight: 500;
    
 }
 /* sign */
+.sign img{
+    float: right;
+    width:40vw;
+    height: 25vw;
+}
+
+.sign-desc{
+    font-size: 2vw;
+    font-family: "Ubuntu";
+}
+.sign-desc span{
+    font-size: 2vw;
+    font-family: "Ubuntu";
+    color: #313c4e;
+    font-style: italic;
+}
+.sign-desc2{
+    margin-top:2%;
+    font-size: 2vw;
+    font-family: "Ubuntu";
+    color: black;
+    
+}
 /* tic */
+.tic img {
+    float: left;
+    width:35vw;
+    height: 32vw;
+    
+}
+
 .tic .tic-desc{
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: "Ubuntu";
 }
 .tic-desc span{
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: "Ubuntu";
     color: #313c4e;
     font-style: italic;
 }
 .tic-desc2{
     margin-top: 5%;
-    font-size: 2.4vw;
+    font-size: 2vw;
     font-family: "Ubuntu";
     color: black;
     
 }
 
 .button {
-    background-color: blueviolet;
+    background-color: #313c4e;
     font-family: "Ubuntu";
     border-radius: 0.5vw;
     border-style: none;
@@ -197,6 +217,10 @@ text-align: center;
     outline: none;
     margin-top: 2%;
       
+}
+.button:hover{
+    font-size: 3.2vw;
+    
 }
 
 @media screen and (max-width: 480px) {
