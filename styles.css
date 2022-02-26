@@ -81,9 +81,13 @@ text-align: center;
     font-size:3vw;
     font-weight: 500;
 }
+.column p{
+    margin: 1%;
+}
 .column p span{
     font-style: italic;
     text-decoration: dashed;
+    
 }
 .column {
     float: left;
@@ -119,13 +123,17 @@ text-align: center;
     list-style: circle;
 }
 .cat{
-    height: 10%;
-    width: 22%;
+    height: 15%;
+    width: 32%;
     float: right;
+    margin-top: 0;
     margin-left: 10vw;
 }
 @media screen and (max-width: 780px) {
-   
+    .skills1 {
+        display: inline; 
+        
+    }
     .cat{
         display: none;
     }
@@ -155,11 +163,13 @@ text-align: center;
 }
 .column-proj:hover{ 
   transform: scale(1.02); 
-  background-color: #596579;
+  background-color: grey;
+  /* background-color: #596579; */
 }
 .column-proj img{
     width: 100%;
-    height: 19vw;
+    height: 22vw;
+    border-radius: 10%;
 }
 .project-name a{
     
@@ -219,9 +229,9 @@ text-align: center;
     }
     
 }
-.hobbies strong{
-    margin-top: 22vw;
-}
+/* .hobbies strong{
+    margin-top: 32vw;
+} */
 .interests ul{
     margin-top:5%;
 }
