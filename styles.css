@@ -6,27 +6,15 @@
 body{
     cursor: pointer;
     font-family: 'Ubuntu';
+    background-color: #e7f8fe;
    
     /* background-color: rgb(172, 121, 55); */
 }
 .header{
     justify-content: space-between;
-    /* position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto; */
     background-color:#313c4e;
     display: flex;
-  
-    /* height: 20vw; */
-   
-    /* height: 10vw; */
+
 }
 
 .picture{
@@ -118,7 +106,30 @@ text-align: center;
     /* background-color: rgb(145, 103, 27); */
    /* border-right: 1px solid #dddddd */
 }
-
+.skills1 {
+    display: flex; 
+    
+}
+.interest, .skills2{
+    width: 22%;
+}
+.interest li,.skills2 li{
+    /* display: inline; */
+    margin: 9%;
+    list-style: circle;
+}
+.cat{
+    height: 10%;
+    width: 22%;
+    float: right;
+    margin-left: 10vw;
+}
+@media screen and (max-width: 780px) {
+   
+    .cat{
+        display: none;
+    }
+}
 
 
 
@@ -128,18 +139,7 @@ text-align: center;
       width: 100%;
       border: none;
     }
-    .column:first-child {
-        /* background-color: #524c3f;#413c4f; */
-        /* background-color: rgb(158, 142, 142); */
-       
-        
-       /* border-right: 1px solid #dddddd */
-      }
-    .column:nth-child(2) {
-        /* background-color: rgb(158, 142, 142); */
-       
-       /* border-right: 1px solid #dddddd */
-    }
+    
 }
 .column-proj{
     border:black;
@@ -155,11 +155,11 @@ text-align: center;
 }
 .column-proj:hover{ 
   transform: scale(1.02); 
-  background-color: #2d6bcf;
+  background-color: #596579;
 }
 .column-proj img{
     width: 100%;
-    height: 17vw;
+    height: 19vw;
 }
 .project-name a{
     
@@ -222,10 +222,10 @@ text-align: center;
 .hobbies strong{
     margin-top: 22vw;
 }
-.interest ul{
+.interests ul{
     margin-top:5%;
 }
-.interest li{
+.interests li{
     color: black;
     font-style: italic;
     list-style: circle;
@@ -256,7 +256,7 @@ text-align: center;
 }
 
 .footer svg:hover{
-    color: rgb(158, 142, 142);
+    color: white;
     
 
 }
