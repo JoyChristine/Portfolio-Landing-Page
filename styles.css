@@ -265,9 +265,19 @@ text-align: center;
       width: 100%;
     }
 }
+.hobbies{
+   background-color: rgb(158, 142, 142);
+   justify-content: center;
+   
+}
+
 .hobbies strong{
-    font-size: large;
+    font-size: 2vw;
     font-family: 'Trocchi', serif;
+    margin-left: 3vw;
+}
+.interest li{
+    font-size: 1.5vw;
 }
 .footer {
     left: 0;
@@ -277,14 +287,16 @@ text-align: center;
     color: white;
     text-align: center;
  }
- .footer svg
- {
+.footer a{
+    color:black;
+}
+.footer svg{
     color: rgb(162, 173, 170);
     height: 3vw;
     padding: 0.4%;
     cursor: pointer;
     
- }
+}
 
 .footer svg:hover{
     color: brown;
@@ -294,4 +306,27 @@ text-align: center;
     .svg{
       width: 100%;
     }
+}
+#myBtn {
+    position: bottom;
+    
+    float: right;
+    max-width: 5vw;
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: .3vw;
+   
+
+}
+#myBtn a{
+    color:#313c4e;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-size: 2vw;
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
 }
