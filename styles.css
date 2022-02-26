@@ -127,12 +127,14 @@ text-align: center;
       border: none;
     }
     .column:first-child {
-        /* background-color: #524c3f; */
-        background-color: #425c4f;
+        /* background-color: #524c3f;#413c4f; */
+        background-color: #414c4f;
+        color:white;
        /* border-right: 1px solid #dddddd */
       }
     .column:nth-child(2) {
-        background-color: #413c4f;
+        background-color: #413c3f;
+        color:white;
        /* border-right: 1px solid #dddddd */
       }
 }
