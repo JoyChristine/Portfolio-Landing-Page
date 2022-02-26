@@ -155,7 +155,7 @@ text-align: center;
 }
 .column-proj:hover{ 
   transform: scale(1.02); 
-  background-color: #524c3f;
+  background-color: #2d6bcf;
 }
 .column-proj img{
     width: 100%;
@@ -236,6 +236,7 @@ text-align: center;
 
 
 .footer {
+    
     left: 0;
     bottom: 0;
     width: 100%;
