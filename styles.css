@@ -6,6 +6,7 @@
 body{
     cursor: pointer;
     font-family: 'Ubuntu';
+   
     /* background-color: rgb(172, 121, 55); */
 }
 .header{
@@ -82,14 +83,14 @@ text-align: center;
 .abt{
     text-align: center;
     font-size: 2vw;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration-color: #313c4e;
 }
 .abt strong{
     color:black;
     text-decoration: underline;
     font-family: 'Ubuntu';
-    font-size:2vw;
+    font-size:3vw;
     font-weight: 500;
 }
 .column p span{
@@ -115,7 +116,7 @@ text-align: center;
  .column:nth-child(2) {
     /* background-color: rgb(145, 103, 27); */
    /* border-right: 1px solid #dddddd */
-  }
+}
 
 
 
@@ -136,21 +137,26 @@ text-align: center;
         background-color: #413c3f;
        
        /* border-right: 1px solid #dddddd */
-      }
+    }
 }
 
 .projects{
-    font-size: large;
+    /* font-size: large; */
     margin-top: 30vw;
   
 }
-.projects strong{
+/* .projects strong{
     font-size: 2vw;
     color:black;
     
     font-family: 'Ubuntu';
     
     font-weight: 500;
+} */
+.project-name a{
+    color: red;
+    text-decoration: none;
+    /* font-size: 4vw; */
 }
 .to-do img{
     float: left;
@@ -159,15 +165,6 @@ text-align: center;
 }
 
 
-
-    
-
-
-.project-name a{
-    color: black;
-    text-decoration: none;
-    font-size: 2vw;
-}
 .to-do::after ,.sign::after,.tic::after{
     content: "";
     clear: both;
@@ -179,12 +176,12 @@ text-align: center;
     color:black;
     text-decoration: underline;
     font-family: 'Ubuntu';
-    font-size:1.5vw;
+    /* font-size:1.5vw; */
     font-weight: 500;
    
 }
 .to-do-desc{
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-family: "Ubuntu";
 }
 .to-do-desc2{
@@ -195,12 +192,12 @@ text-align: center;
     
 }
 .to-do-list {
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-family: "Ubuntu";
     color: black;
 }
 .to-do-desc span{
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-family: "Ubuntu";
     color: #313c4e;
     font-style: italic;
@@ -213,18 +210,18 @@ text-align: center;
 }
 
 .sign-desc{
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-family: "Ubuntu";
 }
 .sign-desc span{
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-family: "Ubuntu";
     color: #313c4e;
     font-style: italic;
 }
 .sign-desc2{
     margin-top:2%;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-family: "Ubuntu";
     color: black;
     
@@ -238,18 +235,18 @@ text-align: center;
 }
 
 .tic .tic-desc{
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-family: "Ubuntu";
 }
 .tic-desc span{
-    font-size:1.5vw;
+    /* font-size:1.5vw; */
     font-family: "Ubuntu";
     color: #313c4e;
     font-style: italic;
 }
 .tic-desc2{
     margin-top: 5%;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     font-family: "Ubuntu";
     color: black;
     
