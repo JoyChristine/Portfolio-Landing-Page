@@ -48,7 +48,7 @@ body{
  
     
 }
- .hi {
+.hi {
     margin-top: 5vw;
     text-align: center;
     color:white;
@@ -105,7 +105,8 @@ text-align: center;
     /* color: #ffffff; */
    
 }
-.row .column{
+.row {
+    
     /* background-color: #313c4e; */
     
 }
@@ -129,129 +130,51 @@ text-align: center;
     }
     .column:first-child {
         /* background-color: #524c3f;#413c4f; */
-        background-color: #414c4f;
+        /* background-color: rgb(158, 142, 142); */
+       
         
        /* border-right: 1px solid #dddddd */
       }
     .column:nth-child(2) {
-        background-color: #413c3f;
+        /* background-color: rgb(158, 142, 142); */
        
        /* border-right: 1px solid #dddddd */
     }
 }
-
-.projects{
-    /* font-size: large; */
-    margin-top: 30vw;
-  
-}
-/* .projects strong{
-    font-size: 2vw;
-    color:black;
-    
-    font-family: 'Ubuntu';
-    
-    font-weight: 500;
-} */
-.project-name a{
-    color: red;
-    text-decoration: none;
-    /* font-size: 4vw; */
-}
-.to-do img{
+.column-proj{
+    border:black;
+    margin-top: 2%;
     float: left;
-    width:35vw;
-    height: 22vw;
-}
-
-
-.to-do::after ,.sign::after,.tic::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-  
-
-.to-do a, .tic a, .sign a{
-    color:black;
-    text-decoration: underline;
-    font-family: 'Ubuntu';
-    /* font-size:1.5vw; */
-    font-weight: 500;
+    transition: transform .2s;
+    /* height: 27vw; */
+    width: 33%;
+    padding: 0%;
+    /* color: #ffffff; */
+    
    
 }
-.to-do-desc{
-    /* font-size: 1.5vw; */
-    font-family: "Ubuntu";
+.column-proj:hover{ 
+  transform: scale(1.02); 
+  background-color: #524c3f;
 }
-.to-do-desc2{
-    margin-top:2%;
-    font-size:1.5vw;
-    font-family: "Ubuntu";
-    color: black;
+.column-proj img{
+    width: 100%;
+    height: 17vw;
+}
+.project-name a{
+    
+    margin-left: 2vw;
+    color:black;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Ubuntu';
     
 }
-.to-do-list {
-    /* font-size: 1.5vw; */
-    font-family: "Ubuntu";
-    color: black;
+.to-do p, .sign p, .tic p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-family: 'Ubuntu';
 }
-.to-do-desc span{
-    /* font-size: 1.5vw; */
-    font-family: "Ubuntu";
-    color: #313c4e;
-    font-style: italic;
-}
-/* sign */
-.sign img{
-    float: right;
-    width:40vw;
-    height: 25vw;
-}
-
-.sign-desc{
-    /* font-size: 1.5vw; */
-    font-family: "Ubuntu";
-}
-.sign-desc span{
-    /* font-size: 1.5vw; */
-    font-family: "Ubuntu";
-    color: #313c4e;
-    font-style: italic;
-}
-.sign-desc2{
-    margin-top:2%;
-    /* font-size: 1.5vw; */
-    font-family: "Ubuntu";
-    color: black;
-    
-}
-/* tic */
-.tic img {
-    float: left;
-    width:35vw;
-    height: 32vw;
-    
-}
-
-.tic .tic-desc{
-    /* font-size: 1.5vw; */
-    font-family: "Ubuntu";
-}
-.tic-desc span{
-    /* font-size:1.5vw; */
-    font-family: "Ubuntu";
-    color: #313c4e;
-    font-style: italic;
-}
-.tic-desc2{
-    margin-top: 5%;
-    /* font-size: 1.5vw; */
-    font-family: "Ubuntu";
-    color: black;
-    
-}
-
 .button {
     background-color: #313c4e;
     font-family: "Ubuntu";
@@ -260,36 +183,58 @@ text-align: center;
     box-sizing: border-box;
     color: #ffffff;
     cursor: pointer;
-    font-size: 2.8vw;
-    font-weight: 500;
+    font-size: 2vw;
+    font-weight: 300;
     outline: none;
     margin-top: 2%;
       
 }
-.button:hover{
-    font-size: 3.2vw;
+/* .button:hover{
+    font-size: 1.2vw;
+    
+} */
+@media screen and (max-width: 780px) {
+    .column-proj{
+      width: 100%;
+      border: none;
+      
+    }
+    .column-proj img, .tic img{
+        width:40vw;
+        height: 30vw;
+    }
+    .tic img{
+        width:222vw;
+        height: 30vw;
+    }
+    .to-do, .sign, .tic{
+        display: flex;
+    }
+    .column-proj{
+        transform: scale(1); 
+    }
+    .column-proj:hover{
+        transform: scale(1);
+        background-color: white;
+    }
+    
+}
+.hobbies strong{
+    margin-top: 22vw;
+}
+.interest ul{
+    margin-top:5%;
+}
+.interest li{
+    color: black;
+    font-style: italic;
+    list-style: circle;
+    /* margin-top:1%; */
     
 }
 
-@media screen and (max-width: 480px) {
-    .projects{
-      width: 100%;
-    }
-}
-.hobbies{
-   background-color: rgb(158, 142, 142);
-   justify-content: center;
-   
-}
 
-.hobbies strong{
-    font-size: 2vw;
-    font-family: 'Trocchi', serif;
-    margin-left: 3vw;
-}
-.interest li{
-    font-size: 1.5vw;
-}
+
 .footer {
     left: 0;
     bottom: 0;
@@ -310,7 +255,8 @@ text-align: center;
 }
 
 .footer svg:hover{
-    color: brown;
+    color: rgb(158, 142, 142);
+    
 
 }
 @media screen and (max-width: 480px) {
@@ -320,9 +266,9 @@ text-align: center;
 }
 #myBtn {
     position: bottom;
-    
     float: right;
     max-width: 5vw;
+    margin-right:5vw;
     text-decoration: none;
     width: 100%;
     border: none;
