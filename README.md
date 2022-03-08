@@ -20,7 +20,7 @@ git clone https://joychristine.github.io/Portfolio-Landing-Page/
 
 cd Portfolio-Landing-Page
 
-code . or atom . depending on the text editor of your choise.
+code . or atom . depending on the text editor of your choice.
 
  ## Technologies Used
 * HTML
